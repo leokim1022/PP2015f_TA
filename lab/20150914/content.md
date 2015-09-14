@@ -136,11 +136,11 @@ if, equal?, or, and, +, -, *, /, <, quotient, remainder, ...
 (cons 0 '(1 2 3 4 5))
 ```
 
-```racket
+```racket //이건 리스트를 만듦
 (cons 1 '())
 ```
 
-```racket
+```racket //이건 페어를 만듦
 (cons '() 1)
 ```
 
